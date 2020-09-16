@@ -27,7 +27,7 @@ I already have some HTML CSS skills and a little bit JS (I'm improving all my sk
 * Language courses for one year. English level - A2 Pre-intermediate (Online tests says what my English level is B1, but I don't think so).
 
 ## Experience:
-Few very simple layouts (HTML + CSS only), one for example: [Layout](images/Layout-example.jpg) | [Website](http://xn--62-6kci4clbaajmjidf.xn--p1ai/) (I am not proud of this work, because I already know how to do better, so i'll change information in this part a little bit later).
+Few very simple layouts (HTML + CSS only), one for example: [Layout](images/Layout-example.jpg) | [Website](http://xn--62-6kci4clbaajmjidf.xn--p1ai/) (I am not proud of this work, because I already know how to do better, so I'll change information in this part a little bit later).
 
 ## Code example: 
 ```
