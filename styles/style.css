@@ -1,0 +1,334 @@
+body {
+    margin: 0px;
+    background-color: rgb(226,226,266);
+}
+/* Header block */
+header {
+    position: relative;
+    width: 100%;
+    min-width: 1440px;
+    height: 600px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+/* Container for content, size - 1440px */
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 100%;
+}
+.header-title {
+    margin: 0 auto;
+    width: 1440px;
+    height: 380px;
+}
+.header-title h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(226,226,266);
+}
+.header-title h3 {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color: rgb(226,226,266);
+}
+/* Gray line in bottom of the header with information about person */
+.header-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 220px;
+    background-color: rgba(35, 35, 35, 0.8);
+}
+.header-info--avatar {
+    margin-left: 50px;
+    margin-top: -90px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: rgb(226,226,266);
+}
+.header-info--avatar img {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    height: 360px;
+}
+.header-info--contacts {
+    margin-left: 140px;
+    display: inline-block;
+    height: 100%;
+    width: 800px;
+}
+.header-info--contacts--item {
+    margin-left: 34px;
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 230px;
+    text-align: center;
+}
+.header-info--contacts--item img {
+    padding: 12px;
+    margin: 45px auto;
+    margin-bottom: 25px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(213,213,213);
+    border-radius: 15px;
+}
+.header-info--contacts--item span,
+.header-info--contacts--item a {
+    margin-bottom: 5px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    color: rgb(213,213,213);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+/* Side block, situated on the left side of the page */
+aside {
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    display: inline-block;
+    width: 475px;
+    height: auto;
+    background-color: rgb(213,213,213);
+    border-radius: 15px;
+}
+.aside--social-media {
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 375px;
+    height: auto;
+}
+.aside--header,
+.main-news--header {
+    height: 67px;
+    border-bottom: 3px solid rgb(35,35,35);
+}
+.aside--header img,
+.main-news--header img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(35, 35, 35, 1);
+}
+.aside--header--dark {
+    margin-top: 40px;
+    height: 67px;
+    border-bottom: 3px solid rgb(213,213,213);
+}
+.aside--header--dark h2 {
+    margin-left: 20px;
+    margin-top: 15px;
+    vertical-align: top;
+    display: inline-block;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(213,213,213);
+}
+.aside--header--dark img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(213,213,213);
+}
+.aside--header h2,
+.main-news--header h2 {
+    margin-left: 20px;
+    margin-top: 15px;
+    vertical-align: top;
+    display: inline-block;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(35,35,35);
+}
+.aside--social-media ul,
+.aside--links ul,
+.aside--skills ul {
+    padding-left: 0px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(35,35,35);
+    list-style: none;
+}
+.aside--skills ul {
+    float: left;
+    width: 50%;
+    color: rgb(213,213,213);
+}
+.aside--social-media ul li::before,
+.aside--links ul li::before,
+.aside--skills ul li::before {
+    display: inline-block;
+    width: 35px;
+    content: "\25A0";
+    font-size: 29px;
+    color: rgb(35,35,35);
+}
+.aside--skills ul li::before {color: rgb(213,213,213)}
+.aside--social-media a,
+.aside--links a {
+    text-decoration: none;
+    color: rgb(35,35,35);
+    transition: 0.5s all ease;
+}
+.aside--links {
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 375px;
+    height: auto;
+}
+.aside--skills {
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 350px;
+    background-color: rgb(35,35,35);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.aside--skills--triangle {
+    margin-top: -8px;
+    margin-left: 17px;
+    display: inline-block;
+    font-size: 36px;
+    color: rgb(213,213,213);
+}
+.aside--skills--counters ul li::before{visibility: hidden;}
+.skill-counter {
+    display: inline-block;
+    height: 10px;
+    width: 79%;
+    border: 2px solid rgb(213,213,213);
+    background-color: rgb(35,35,35);
+}
+.counter-seventy-five-percent,
+.counter-fifty-percent,
+.counter-twenty-five-percent {
+    height: 100%;
+    width: 75%;
+    background-color: rgb(213,213,213);
+}
+.counter-fifty-percent {width: 50%;}
+.counter-twenty-five-percent {width: 25%;}
+/* Main part of the page with all information about person */
+.main-news {
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 805px;
+    height: auto;
+    border-radius: 15px;
+}
+.main-news--header {margin-top: 80px;}
+article {
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(35,35,35);
+    text-align: justify;
+    line-height: 30px;
+}
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(35,35,35);
+    transition: 0.5s all ease;
+}
+article a:hover,
+aside a:hover{color: rgb(100,100,100)}
+.main-news--first-paragraph {margin-top: 40px;}
+.strong {font-weight: bold;}
+.main-news--inline-lists {
+    margin-right: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+/* Modal block with code example. Script will show it if you will push on the button in the bottom of the page */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    margin: 3% auto;
+    width: fit-content;
+    height: auto;
+    border-right: 1px solid rgb(226,226,266);
+    border-radius: 15px;
+    background-color: rgb(226,226,266);
+}
+.modal-content--close {
+    margin-top: 9px;
+    margin-bottom: 3px;
+    margin-right: -65px;
+    float: right;
+    width: 100%;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(213,213,213);
+    transition: 0.6s all;
+}
+.modal-content--close:hover {
+    color: rgb(35,35,35);
+    font-weight: bold;
+    cursor: pointer;
+}
+#modalbutton {
+    padding: 20px;
+    margin-left: 256px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    color: rgb(226,226,266);
+    border: 1px solid rgb(226,226,266);
+    border-radius: 10px;
+    background-color: rgb(35,35,35);
+    transition: all 0.5s ease;
+}
+#modalbutton:hover {
+    color: rgb(35,35,35);
+    background-color: rgb(226,226,226);
+    border: 1px solid rgb(35,35,35);
+    cursor: pointer;
+}
+.modal-content-code {
+    margin-top: 40px;
+    display: inline-block;
+    color: rgb(35,35,35);
+}
