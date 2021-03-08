@@ -346,5 +346,6 @@ aside a:hover{color: rgb(100,100,100)}
     border-top-left-radius: 15px;
     background-color: rgb(35,35,35);
 }
+.footer-content--sectionheader{display: none;}
 .footer-content--item {margin: 0px 15px 0px 15px;}
 .footer-content--item > img {width: 48px;}
